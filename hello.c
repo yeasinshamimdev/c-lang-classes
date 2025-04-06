@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    printf("Hello world!");
-
+    int num1 = 20;
+    float fnum = 13.4;
+    char name = "shamim";
     return 0;
 }
