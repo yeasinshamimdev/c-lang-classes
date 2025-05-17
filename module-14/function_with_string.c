@@ -1,10 +1,8 @@
 #include <stdio.h>
 
-void fun(char s[])
+void fun(char *s)
 {
-    char h[10];
-    scanf("%s", &h);
-    s = h;
+    scanf("%s", s);
 }
 
 int main()
